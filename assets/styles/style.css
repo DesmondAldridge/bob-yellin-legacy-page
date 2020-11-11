@@ -59,16 +59,16 @@ body, html {
   }
 
 
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .bgimg-1 {
-    background-size: 400px 800px;
+    background-size: 400px 500px;
   } 
   .bgimg-2 {
-    background-size: 400px 400px;
+    background-size: 400px 500px;
   }
   .bgimg-3 {
     background-size: 400px 500px;
   
   }
-} */
+}
   
