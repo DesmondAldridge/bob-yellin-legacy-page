@@ -50,19 +50,22 @@ body, html {
     text-align: center;
     padding: 50px 80px;
     text-align: justify;
-    background-image: linear-gradient(rgb(7, 42, 243), rgb(7, 176, 243));
+    background-color: whitesmoke;
+    /* background-image: linear-gradient(rgb(7, 42, 243), rgb(7, 176, 243)); */
 
   }
   
-  #title {
+  .title {
     
-    color: rgb(30, 0, 161);
+    color: transparent;
     font-family: 'Goudy Bookletter 1911', serif;
     /* font-family: 'IM Fell English SC', serif; */
-    font-size: 100px;
+    font-size: 85px;
     font-weight: 900;
-
-    background: -webkit-linear-gradient(rgb(3, 19, 167), rgb(2, 5, 187), rgb(0, 36, 156), rgb(0, 102, 255), rgb(2, 5, 187), rgb(3, 19, 167));
+    background-image: url("../img/blue-metal.jpg");
+    background-size: 450px 85px;
+    /* 750px 90px; */
+    /* background: -webkit-linear-gradient(rgb(3, 19, 167), rgb(2, 5, 187), rgb(0, 36, 156), rgb(0, 102, 255), rgb(2, 5, 187), rgb(3, 19, 167)); */
   
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -75,13 +78,14 @@ body, html {
 
   .pages {
 
-    color: rgb(30, 0, 161);
+    color: transparent;
     font-family: 'Goudy Bookletter 1911', serif;
     /* font-family: 'IM Fell English SC', serif; */
     font-size: 30px;
     font-weight: 600;
-
-    background: -webkit-linear-gradient(rgb(3, 19, 167), rgb(2, 5, 187), rgb(0, 36, 156), rgb(0, 102, 255), rgb(2, 5, 187), rgb(3, 19, 167));
+    background-image: url("../img/blue-metal.jpg");
+    background-size: 250%;
+    /* background: -webkit-linear-gradient(rgb(3, 19, 167), rgb(2, 5, 187), rgb(0, 36, 156), rgb(0, 102, 255), rgb(2, 5, 187), rgb(3, 19, 167)); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
