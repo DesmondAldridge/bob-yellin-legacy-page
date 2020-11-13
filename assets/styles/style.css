@@ -30,9 +30,12 @@ body, html {
   .bgimg-3 {
     background-image: url("../img/bob-and-moose.jpeg");
     min-height: 100%;
-    background-size: 950px 700px;
-    
+    background-size: 950px 700px; 
   }
+
+  /* .background {
+    position: absolute;
+  } */
   
   .caption {
     background: rgba(0, 71, 224, 0.1);
@@ -76,6 +79,10 @@ body, html {
     border-radius: 25px; */
   }
 
+  .caption2 {
+    background: rgba(0, 71, 224, 0.3);
+  }
+
   .pages {
 
     color: transparent;
@@ -92,6 +99,11 @@ body, html {
     margin-left: 1%;
     margin-bottom: 3px;
 
+  }
+
+  .pages2 {
+  background-image: url("../img/metallic-5.png");
+  background-size: 100%;
   }
 
   #pagesDiv {
